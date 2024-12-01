@@ -1,8 +1,4 @@
-Here’s a **`README.md`** file for your project that you can upload to GitHub. It includes an overview, setup instructions, and other important details.
-
----
-
-# Flask Google OIDC Authentication SPA
+### Flask Google OIDC Authentication SPA
 
 This project demonstrates a simple Single Page Application (SPA) built with Flask that integrates Google OAuth 2.0 for user authentication using OpenID Connect (OIDC). After a successful login, the app displays the authenticated user's name, email, and profile picture. The user can log out, and the session will not persist across logins.
 
