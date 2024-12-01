@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1 class="title">Sign In</h1>
+            <p class="subtitle">Sign in with your Google account to continue</p>
+            <div class="google-signin">
+                <a href="{{ url_for('login') }}" class="google-button">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" 
+                         alt="Google Logo" class="google-icon">
+                    Sign in with Google
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
